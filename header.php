@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="functions/modal.js"></script>
 </head>
 
 <body>
@@ -29,19 +30,19 @@
                 </button>
             </div>
             <div class="hidden lg:flex lg:gap-x-12">
-                <a href="#"
+                <a href="index.php"
                     class="text-sm font-semibold text-gray-900 hover:text-gray-600 hover:border-b-2 hover:border-gray-300 transition-all duration-300">Inicio</a>
-                <a href="#"
+                <a href="episodios.php"
                     class="text-sm font-semibold text-gray-900 hover:text-gray-600 hover:border-b-2 hover:border-gray-300 transition-all duration-300">Podcasts</a>
-                <a href="#"
+                <a href="contacto.php"
                     class="text-sm font-semibold text-gray-900 hover:text-gray-600 hover:border-b-2 hover:border-gray-300 transition-all duration-300">Participación</a>
             </div>
             <div class="hidden lg:flex lg:flex-1 lg:justify-end">
-                <a href="#"
+                <button onclick="openModal()"
                     class="inline-flex items-center px-4 py-2 text-sm font-semibold text-white bg-blue-500 hover:bg-blue-700 rounded-lg shadow-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50">
                     Iniciar sesión
                     <span aria-hidden="true" class="ml-2">&rarr;</span>
-                </a>
+                </button>
             </div>
         </nav>
     </header>

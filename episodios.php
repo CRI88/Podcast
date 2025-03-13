@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +8,6 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="functions/modal.js"></script>
 </head>
-
 <body>
     <?php include 'header.php'; ?>
 
@@ -48,12 +46,8 @@
         </div>
     </div>
 
-
-    <section>
-        <p>Hola Toni</p>
-    </section>
-
+    
+    <p class="text-blue-500 text-xl">Hola</p>
     <?php include 'footer.php'; ?>
 </body>
-
 </html>

@@ -12,7 +12,6 @@
     <footer class="bg-gradient-to-r from-blue-200 via-pink-400 to-yellow-600 text-white py-10">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between items-center gap-6">
-                <!-- Logo y descripción -->
                 <div class="text-center md:text-left">
                     <a href="#" class="flex items-center space-x-3">
                         <img class="h-12 w-auto rounded-lg" src="img/logo.webp" alt="Logo">
@@ -21,7 +20,6 @@
                     <p class="mt-2 text-gray-900 text-sm">Tu plataforma favorita para podcasts y contenido exclusivo.</p>
                 </div>
 
-                <!-- Enlaces de navegación -->
                 <nav class="flex flex-wrap justify-center gap-6 md:gap-12">
                     <a href="#" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Inicio</a>
                     <a href="#" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Podcasts</a>
@@ -30,7 +28,6 @@
                     <a href="#" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Contacto</a>
                 </nav>
 
-                <!-- Redes sociales -->
                 <div class="flex space-x-6">
                     <a href="#" class="text-gray-900 hover:text-gray-200 transition duration-300">
                         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
@@ -53,10 +50,8 @@
                 </div>
             </div>
 
-            <!-- Línea divisoria -->
             <div class="border-t border-gray-900 my-6"></div>
 
-            <!-- Copyright -->
             <p class="text-center text-sm text-gray-900">
                 © 2025 Your Company. Todos los derechos reservados.
             </p>
