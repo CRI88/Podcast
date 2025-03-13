@@ -24,7 +24,7 @@
                 <h2 class="text-xl font-bold text-center mb-4">Iniciar Sesión</h2>
                 <input type="email" placeholder="Correo electrónico" class="w-full border p-2 mb-2 rounded-lg">
                 <input type="password" placeholder="Contraseña" class="w-full border p-2 mb-4 rounded-lg">
-                <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-700">Ingresar</button>
+                <button class="w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-700" onclick="window.location.href='contacto.php'">Ingresar</button>
                 <p class="text-sm text-center mt-4">
                     ¿No tienes cuenta?
                     <a href="#" class="text-blue-500 hover:underline" onclick="showRegister()">Regístrate</a>
@@ -37,7 +37,7 @@
                 <input type="text" placeholder="Nombre" class="w-full border p-2 mb-2 rounded-lg">
                 <input type="email" placeholder="Correo electrónico" class="w-full border p-2 mb-2 rounded-lg">
                 <input type="password" placeholder="Contraseña" class="w-full border p-2 mb-4 rounded-lg">
-                <button class="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-700">Registrarse</button>
+                <button class="w-full bg-green-500 text-white py-2 rounded-lg hover:bg-green-700" onclick="window.location.href='contacto.php'">Registrarse</button>
                 <p class="text-sm text-center mt-4">
                     ¿Ya tienes cuenta?
                     <a href="#" class="text-blue-500 hover:underline" onclick="showLogin()">Iniciar sesión</a>
@@ -45,7 +45,7 @@
             </div>
         </div>
     </div>
-    
+
     <p class="text-blue-500 text-xl">Hola</p>
     <?php include 'footer.php'; ?>
 </body>

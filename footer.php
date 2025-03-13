@@ -21,11 +21,9 @@
                 </div>
 
                 <nav class="flex flex-wrap justify-center gap-6 md:gap-12">
-                    <a href="#" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Inicio</a>
-                    <a href="#" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Podcasts</a>
-                    <a href="#"
-                        class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Participación</a>
-                    <a href="#" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Contacto</a>
+                    <a href="index.php" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Inicio</a>
+                    <a href="episodios.php" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Podcasts</a>
+                    <a href="contacto.php" class="text-sm text-gray-900 font-semibold hover:text-gray-200 transition duration-300">Participación</a>
                 </nav>
 
                 <div class="flex space-x-6">
