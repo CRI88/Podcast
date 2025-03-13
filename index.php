@@ -8,6 +8,12 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <p class="text-blue-500 text-xl">Hola</p>
+    <?php include 'header.php'; ?>
+
+    <section>
+        <p>Hola Toni</p>
+    </section>
+
+    <?php include 'footer.php'; ?>
 </body>
 </html>
