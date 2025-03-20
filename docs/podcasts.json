@@ -1,0 +1,14 @@
+[
+    {
+        "idPodcast": 1,
+        "nombre": "Podcast 1",
+        "descripcion": "Descripcion 1",
+        "url": ""
+    },
+    {
+        "idPodcast": 2,
+        "nombre": "Podcast 2",
+        "descripcion": "Descripcion 2",
+        "url": ""
+    }
+]

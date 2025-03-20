@@ -7,8 +7,9 @@
     <link rel="icon" href="img/logo.webp" type="image/png">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="functions/modal.js"></script>
+    <script type="module" src="functions/episodios.js" defer></script>
 </head>
-<body>
+<body id="contenedorBodyEpisodios">
     <?php include 'header.php'; ?>
 
     <!-- Modal de Inicio de Sesión / Registro -->
@@ -46,8 +47,21 @@
         </div>
     </div>
 
-    
-    <p class="text-blue-500 text-xl">Hola</p>
+
+
+
+
+
+    <h1 class="w-full text-3xl text-blue-500 text-center">Podcasts</h1>
+    <div id="divListaPodcasts" class="flex flex-col gap-4 p-10">
+    </div>
+
+
+
+
+
+
+
     <?php include 'footer.php'; ?>
 </body>
 </html>
