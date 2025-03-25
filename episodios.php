@@ -12,7 +12,7 @@
     <script type="module" src="functions/index.js"></script>
 </head>
 
-<body id="contenedorBodyEpisodios">
+<body id="contenedorBodyEpisodios" class="bg-image bg-cover bg-center bg-no-repeat" style="background-image: url('img/fondo.webp');">
     <?php include 'header.php'; ?>
 
     <div id="authModal" class="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center hidden">

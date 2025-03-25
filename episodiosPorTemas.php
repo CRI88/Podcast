@@ -8,7 +8,7 @@
     <link rel="icon" href="img/logo.webp" type="image/png">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="functions/modal.js"></script>
-    <script type="module" src="functions/episodiosPorTemas.js"></script>
+    <script type="module" src="functions/episodiosPorTemas.js" defer></script>
 </head>
 
 <body>
@@ -54,13 +54,17 @@
 
     <section>
 
-    <div id="divListaTemas" class="flex flex-col gap-4 p-10">
+        <div class="bg-gray-800 shadow-md w-full  text-center p-4">
+            <h3 class="text-xl font-semibold text-white mb-2">Título del Podcast</h3>
+            <img src="URL_DE_LA_IMAGEN" alt="Portada del episodio" class="w-full h-48 object-cover">
+            <audio controls class="w-full mt-4">
+                <source src="URL_DEL_AUDIO" type="audio/mpeg">
+                Tu navegador no soporta el audio.
+            </audio>
+            <p class="text-gray-400 text-sm mt-4">Descripción breve del episodio o tema</p>
+        </div>
 
-    </div>
-        
     </section>
-
-    <br><br>
 
     <?php include 'footer.php'; ?>
 </body>
