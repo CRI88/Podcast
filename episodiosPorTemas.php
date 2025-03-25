@@ -9,6 +9,7 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="functions/modal.js"></script>
     <script type="module" src="functions/episodiosPorTemas.js" defer></script>
+    <script type="module" src="functions/episodiosPorTemas.js" defer></script>
 </head>
 
 <body>
@@ -59,8 +60,6 @@
     </div>
         
     </section>
-
-    <br><br>
 
     <?php include 'footer.php'; ?>
 </body>
