@@ -1,0 +1,73 @@
+[
+    {
+        "id": 1,
+        "title": "Misterios y Crímenes Reales",
+        "description": "Casos sin resolver, historias de detectives y análisis de crímenes famosos.",
+        "imagen": "https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/12327/production/_112553547_gettyimages-544452156.jpg.webp",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 2,
+        "title": "Emprendimiento y Startups",
+        "description": "Consejos para emprendedores, entrevistas con empresarios y tendencias del mercado.",
+        "imagen": "https://dobetter.esade.edu/sites/default/files/post/2024-04/corporate-entrepreneurship-startups-m.webp",
+        "podcasts": [1, 2]
+    
+    },
+    {
+        "id": 3,
+        "title": "Cultura Pop y Entretenimiento",
+        "description": "Análisis de películas, series, música y eventos virales.",
+        "imagen": "https://thevalley.es/wp-content/uploads/2023/02/iStock-1329665150-scaled.jpg",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 4,
+        "title": "Salud Mental y Bienestar",
+        "description": "Técnicas de mindfulness, manejo del estrés y entrevistas con psicólogos.",
+        "imagen": "https://www.fundacionmapfre.org/media/educacion-divulgacion/salud-bienestar/bienestar-emocional/bienestar-emocional-1200x600-1.jpg",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 5,
+        "title": "Historias de Vida Inspiradoras",
+        "description": "Testimonios de personas que superaron grandes desafíos.",
+        "imagen": "https://lemaitre.co/wp-content/uploads/2020/05/liderazgo_corporativo_inspirador.jpg",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 6,
+        "title": "Tecnología y Futuro",
+        "description": "Inteligencia artificial, gadgets, ciberseguridad y el futuro digital.",
+        "imagen": "https://www.quonty.com/blog/wp-content/uploads/2019/10/discos-duros-ssd-34.jpg",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 7,
+        "title": "Misterios del Universo y Ciencia Espacial",
+        "description": "Agujeros negros, vida en otros planetas y descubrimientos recientes.",
+        "imagen": "https://www.muyinteresante.com/wp-content/uploads/sites/5/2023/01/11/63be83f892220.jpeg",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 8,
+        "title": "Cultura Geek y Videojuegos",
+        "description": "Reseñas, noticias y debates sobre videojuegos y tecnología geek.",
+        "imagen": "https://web-assets.esetstatic.com/tn/-x700/wls/2021/08/por-qu%C3%A9-compa%C3%B1%C3%ADas-videojuegos-son-blanco-atractivo-cibercriminales.jpg",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 9,
+        "title": "Leyendas y Mitología",
+        "description": "Cuentos antiguos, folklore y mitos de diferentes culturas.",
+        "imagen": "https://egeosuvlakeria.com/wp-content/uploads/2018/10/egeo-suvlakeria-halloween-mitologia-griega.jpg",
+        "podcasts": [1, 2]
+    },
+    {
+        "id": 10,
+        "title": "Comedia y Anécdotas Graciosas",
+        "description": "Historias divertidas, improvisación y conversaciones con comediantes.",
+        "imagen": "https://img.freepik.com/vector-premium/ilustracion-mascaras-teatro-comedia-tragedia_1322560-35074.jpg",
+        "podcasts": [1, 2]
+    }
+]
