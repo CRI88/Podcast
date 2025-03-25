@@ -43,8 +43,9 @@
             {
                 "idPodcast": 1,
                 "nombre": "Podcast Toni",
-                "descripcion": "Descripcion 1",
-                "url": "audios/podcastToni.mp3"
+                "descripcion": "En este podcast hablaremos de tecnología, gadgets y novedades del mundo digital.",
+                "url": "audios/podcastToni.mp3",
+                "imagen": "https://www.quonty.com/blog/wp-content/uploads/2019/10/discos-duros-ssd-34.jpg"
             }
         ]
     },
@@ -56,9 +57,10 @@
         "podcasts": [
             {
                 "idPodcast": 2,
-                "nombre": "Podcast Christian",
-                "descripcion": "Descripcion 2",
-                "url": "audios/podcastChristian.mp3"
+                "nombre": "Misterios del universo",
+                "descripcion": "Un podcast donde trataremos temas relacionados con el espacio y secretos referenciales.",
+                "url": "audios/Misterios_del_Universo.mp3",
+                "imagen": "https://www.muyinteresante.com/wp-content/uploads/sites/5/2023/01/11/63be83f892220.jpeg"
             }
         ]
     },

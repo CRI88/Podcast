@@ -38,7 +38,7 @@ function cargarHome() {
 
     // Contenedor principal
     let container = document.createElement("div");
-    container.className = "w-full bg-white p-6 rounded-lg shadow-md max-w-2xl mx-auto";
+    container.className = "w-full bg-gray-900 p-6 rounded-lg shadow-md max-w-2xl mx-auto";
 
     // Agregar título del tema
     let textViewTitulo = document.createElement("h2");
@@ -62,22 +62,27 @@ function cargarHome() {
     // Mostrar la lista de podcasts
     listaEpisodios.forEach(podcast => {
         let card = document.createElement("div");
-        card.className = "w-full bg-gray-100 p-4 rounded-lg shadow-sm";
+        card.className = "w-full bg-gray-700 p-4 rounded-lg shadow-sm bg-gray-600";
 
         let textViewPodcast = document.createElement("h3");
         textViewPodcast.innerHTML = `🎧 ${podcast.nombre}`;
-        textViewPodcast.className = "text-lg font-semibold text-gray-800";
+        textViewPodcast.className = "text-lg font-semibold text-purple-700";
         card.appendChild(textViewPodcast);
 
         let textViewDescripcion = document.createElement("p");
         textViewDescripcion.innerHTML = podcast.descripcion;
-        textViewDescripcion.className = "text-gray-600 text-sm mb-2";
+        textViewDescripcion.className = "text-white text-sm mb-2";
         card.appendChild(textViewDescripcion);
+
+        let imagePodcast = document.createElement("img");
+        imagePodcast.src = podcast.imagen;
+        imagePodcast.className = "w-full h-full object-cover mt-2";
+        card.appendChild(imagePodcast);
 
         let audioPlayer = document.createElement("audio");
         audioPlayer.controls = true;
         audioPlayer.src = podcast.url;
-        audioPlayer.className = "w-full";
+        audioPlayer.className = "w-full mt-4";
         card.appendChild(audioPlayer);
 
         podcastContainer.appendChild(card);

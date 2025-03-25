@@ -9,10 +9,9 @@
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="functions/modal.js"></script>
     <script type="module" src="functions/episodiosPorTemas.js" defer></script>
-    <script type="module" src="functions/episodiosPorTemas.js" defer></script>
 </head>
 
-<body>
+<body class="bg-image bg-cover bg-center bg-no-repeat" style="background-image: url('img/fondo.webp');">
     <?php include 'header.php'; ?>
 
     <!-- Modal de Inicio de Sesión / Registro -->
