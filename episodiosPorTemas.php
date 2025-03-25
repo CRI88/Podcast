@@ -8,7 +8,7 @@
     <link rel="icon" href="img/logo.webp" type="image/png">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="functions/modal.js"></script>
-    <script type="module" src="functions/episodiosPorTemas.js"></script>
+    <script type="module" src="functions/episodiosPorTemas.js" defer></script>
 </head>
 
 <body>
@@ -54,7 +54,7 @@
 
     <section>
 
-    <div id="divListaTemas" class="flex flex-col gap-4 p-10">
+    <div id="divListaTemas" class="w-full flex flex-col gap-4 p-10">
 
     </div>
         
