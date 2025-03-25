@@ -8,7 +8,7 @@
     <link rel="icon" href="img/logo.webp" type="image/png">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <script src="functions/modal.js"></script>
-    <script type="module" src="functions/index.js"></script>
+    <script type="module" src="functions/episodiosPorTemas.js"></script>
 </head>
 
 <body>
@@ -54,17 +54,10 @@
 
     <section>
 
-        <div class="p-10">
-            <div
-                class="w-full h-100 flex flex-col gap-4 p-10 justify-end rounded-lg bg-cover bg-center bg-no-repeat bg-[url('https://blog.freemusicprojects.com/wp-content/uploads/2019/10/music-production-banner.jpg')]">
-                <h1 class="text-white font-bold text-5xl">Reproduce tus pistas</h1>
-            </div>
-        </div>
+    <div id="divListaTemas" class="flex flex-col gap-4 p-10">
 
-
-        <div id="contenedorHome" class="w-full flex flex-row flex-wrap items-center justify-center gap-8 px-10">
-
-        </div>
+    </div>
+        
     </section>
 
     <br><br>
